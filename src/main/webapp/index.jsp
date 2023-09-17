@@ -16,9 +16,9 @@
 function myFunctionTwo() {
   var txt;
   if (confirm("Confirm pop up with OK and Cancel button")) {
-    txt = "You clicked on OK!- Vinoth";
+    txt = "You clicked on OK!";
   } else {
-    txt = "You clicked on Cancel!- Vinoth";
+    txt = "You clicked on Cancel!";
   }
   document.getElementById("demo").innerHTML = txt;
 }
